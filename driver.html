@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Вакансії</title>
+
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20220316031141"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap&_v=20220316031141" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64d58efce2.js?_v=20220316031141" crossorigin="anonymous"></script>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="➤ Современное приложение SHERP☝ заказывайте такси в Украине ⭐ Наши услуги: эконом такси, грузовое такси, детское кресло, трезвый водитель, эвакуатор, междугородные перевозки и другое. Звоните по телефону ☎️ 0-800-557-878.
+    ✅ Оплата картой ⚡Подача до 5 минут☝">
+    <meta name="google" content="notranslate">
+
+</head>
+	<body id="body" class="page">
+        <div id="page-preloader" class="preloader">
+            <div class="loader">
+                <div class="body">
+                    <span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                    <div class="base">
+                      <span></span>
+                      <div class="face"></div>
+                    </div>
+                  </div>
+                  <div class="longfazers">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>             
+            </div>
+        </div>
+        <header class="header">
+            <div class="container">   
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="index.html" class="header__logo-link">
+                            <img src="img/logo.svg" class="header__logo-link_icon" alt=""> 
+                        </a>
+                        <div class="header__logo-name">
+                            <div class="header__logo-name_text">
+                                <p>Sherp <span class="border-word">taxi</span></p>
+                            </div>
+                        </div>   
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__list-item">
+                                <a href="index.html" class="nav__list-item_link">Головна</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a href="driver.html" class="nav__list-item_link">Вакансії</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a href="#" class="nav__list-item_link" open_modal="#Modal_window" open_modal-class="open" window_close_modal>Контакти</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a href="about.html" class="nav__list-item_link">Про нас</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__office">
+                        <a href="client_sign.html" class="header__office-link">
+                            <p class="header__office-link_text">Вхід</p>
+                        </a>
+                        <span>/</span>
+                        <a href="client_sign.html" class="header__office-link">
+                            <p class="header__office-link_text">Реєстрація</p>
+                        </a>
+                    </div>
+                    <div class="burger-links">
+                        <button class="burger__menu">
+                            <span></span>
+                        </button>
+                    </div> 
+                </div>
+            </div> 
+        </header>
+
+        <div class="burger__menu-section">
+            <div class="burger__menu-section_wrapper">
+                <img src="img/logo.svg" alt="" class="burger__menu-section_logo">        
+                <div class="burger__menu-section_exitBtn">
+                    <button class="modal__helpex-header__exit exit"></button>
+                </div>
+                <ul class="burger__menu-list">
+                    <li class="burger__menu-list_item">
+                        <a href="index.html" class="burger__menu-list_item-link">
+                            <img src="img/house-solid.svg" alt="" class="burger__menu-list_item-icon">
+                            <div class="burger__menu-list_item-cat">Головна</div>
+                        </a>
+                    </li>
+                    <li class="burger__menu-list_item">
+                        <a href="driver.html" class="burger__menu-list_item-link">
+                            <img src="img/to-do-list_1.svg" alt="" class="burger__menu-list_item-icon">
+                            <div class="burger__menu-list_item-cat">Вакансії</div>
+                        </a>
+                    </li>
+                    <li class="burger__menu-list_item">
+                        <a href="" class="burger__menu-list_item-link">
+                            <img src="img/notebook-of-contacts_1.svg" alt="" class="burger__menu-list_item-icon">
+                            <div class="burger__menu-list_item-cat" open_modal="#Modal_window" open_modal-class="open" window_close_modal >Контакти</div>
+                        </a>
+                    </li>
+                    <li class="burger__menu-list_item">
+                        <a href="about.html" class="burger__menu-list_item-link">
+                            <img src="img/comment_1.svg" alt="" class="burger__menu-list_item-icon">
+                            <div class="burger__menu-list_item-cat">Про нас</div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="burger__menu-office">
+                    <a href="client_sign.html" class="burger__menu-office_link">
+                        <p class="burger__menu-office_link__text">Вхід</p>
+                    </a>
+                    <span>/</span>
+                    <a href="client_sign.html" class="burger__menu-office_link">
+                        <p class="burger__menu-office_link__text">Реєстрація</p>
+                    </a>
+                </div>
+            </div>
+        </div>  
+
+        <div id="Modal_window" class="modall">
+            <div class="modall_content">
+                <div class="modall_content_items">
+                    <span class="modall_window_close" open_modal="#Modal_window" open_modal-class="show" window_close_modal><picture><source srcset="img/button_for_close.webp" type="image/webp"><img src="img/button_for_close.png"></picture></span>
+
+                    <div class="modall_content_items-adress">
+                        <div class="modall_content_items_adress">
+                            <p class="modall_bigText">Адреса:</p>
+                            <div class="modall_content_items_adress_info">
+                                <picture><source srcset="img/adress.webp" type="image/webp"><img src="img/adress.png"></picture>
+                                <p class="modall_smallText">Україна, м.Вінниця, вулиця 600-річчя, 21</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modall_content_items_contacts">
+                        <p class="modall_bigText">Наші контакти:</p>
+                        <div class="modall_content_items_contacts_email">
+                            <picture><source srcset="img/email.webp" type="image/webp"><img src="img/email.png"></picture>
+                            <p class="modall_smallText">sherp.com.ua@gmail.com</p>
+                        </div>
+                        <div class="modall_content_items_contacts_kievstar">
+                            <picture><source srcset="img/kievstar.webp" type="image/webp"><img src="img/kievstar.png"></picture>
+                            <p class="modall_smallText">+ 38 (097) 888 98 13</p>
+                        </div>
+                        <div class="modall_content_items_contacts_lifecell">
+                            <picture><source srcset="img/lifecell.webp" type="image/webp"><img src="img/lifecell.png"></picture>
+                            <p class="modall_smallText">+ 38 (044) 782 12 43 </p>
+                        </div>
+                    </div>
+                    <div class="modall_logo_wrapper">
+                        <div class="modall_logo">
+                            <a href="#" class="modall_logo-link">
+                                <img src="img/logo.svg" alt="">
+                            </a>
+                            <div class="modall_logo-name">
+                                <div class="modall_logo-name_text">
+                                    <div class="modall_main_text">
+                                        <span class="modall_red-letter">s</span>
+                                        <span>herp</span>
+                                    </div>
+                                    <span class="modall_border-word">taxi</span>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay"  open_modal="#Modal_window" open_modal-class="show" window_close_modal>
+
+            </div>
+        </div>
+
+        <div id="progress" class="arrow_to_top">
+            <span id="progress-value" class="arrow_to_top-value">
+                <svg width="25" height="25" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M300 300L150 207.691L0 300L150 0L300 300Z" fill="black"/>
+                    </svg>
+            </span>
+        </div>
+
+        <div id="modal_driver_window" class="modal_driver">
+            <div class="modal_driver_content">
+                <p class="invisible_button" open_modal="#modal_driver_window" open_modal-class="open" window_close_modal></p>
+                
+                <div class="modal_driver_content_items">
+                    <picture><source srcset="img/modal_driver.webp" type="image/webp"><img src="img/modal_driver.png"></picture>
+                    <p class="modal_driver_content_items_bigText">Вітаємо вас у команді водіїв <span class="modal_driver_content_items_bigText-red_S">S</span>herp!</p>
+                    <p class="modal_driver_content_items_smallText">Для активації аккаунту водія необхідна співбесіда! Протягом години наш менеджер зв'яжеться з вами!</p>
+                    <button class="modal_driver_content_items_button" open_modal="#modal_driver_window" open_modal-class="show" window_close_modal>OK</button>
+
+                </div>
+            </div>
+
+
+            <div class="overlay_modal_driver" open_modal="#modal_driver_window" open_modal-class="show" window_close_modal></div>
+        </div>
+
+        <div class="question _anim-items _anim-no-hide animateScrollRight">
+            <button class="question__btn"></button>
+            <div class="question__text">
+                <div class="question__text-wrapper">
+                    <span class="question__text-word">
+                        Є запитання? Пишіть
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal">
+            <div class="modal__helpex">
+                <div class="modal__helpex-inner">
+                    <div class="modal__helpex-header">
+                        <div class="modal__helpex-header__burger">
+                            <span></span>
+                        </div>
+                        <div class="modal__helpex-header__text">Задайте нам запитання</div>
+                        <button class="modal__helpex-header__exit exit"></button>
+                    </div>
+                    <div class="modal__helpex-main">
+                        <div class="modal__helpex-main__description">
+                            <div class="modal__helpex-main__description-wrapper">
+                                <p>Вітаю!</p>
+                                <p>Оператор не в мережі.</p>
+                                <p>Залишіть своє питання у цій формі і ми обов'язково на нього відповімо!</p>
+                            </div>
+                        </div>
+                        <div class="modal__helpex-main-section">
+                            <form id="form_main_question" class="modal__helpex-main__form js-form2" novalidate>
+                                <div class="modal__helpex-main__form-inner">
+                                    <div class="modal__helpex-main__form-item modal__helpex-main__form-item--question">
+                                        <textarea type="text" class="modal__helpex-main__form-input modal__helpex-main__form-input--question js-input2" placeholder="Введіть Ваше запитання" name="text"></textarea>
+                                    </div>
+                                    <div class="modal__helpex-main__form-item">
+                                        <input type="tel" class="modal__helpex-main__form-input js-input2 js-input-phone2" placeholder="Ваш мобільний телефон" name="phone">
+                                    </div>
+                                </div>
+                                <button type="submit" class="modal__helpex-main__send">Надіслати</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__burger-lining">
+                <div class="modal__burger-lining__wrapper">
+                    <div class="modal__burger-lining__header">
+                        <div class="modal__burger-lining__header_text">Виберіть дію</div>
+                        <button class="modal__helpex-header__exit modal__burger-btn"></button>
+                    </div>
+                    <ul class="modal__burger-lining__list">
+                        <li class="modal__burger-lining__list-item" data-tab="#link_1">
+                            <img src="img/modal__burger-comments.png" alt="" class="modal__burger-lining__list-item_icon">
+                            <div class="modal__burger-lining__list-item_cat">Відгуки</div>
+                        </li>
+                        <li class="modal__burger-lining__list-item modal__burger-lining__list-item--second">
+                            <img src="img/modal__burger-question.png" alt="" class="modal__burger-lining__list-item_icon">
+                            <div class="modal__burger-lining__list-item_cat">Маєте запитання?</div>
+                        </li>
+                        <li class="modal__burger-lining__list-item" data-tab="#link_2">
+                            <img src="img/modal__burger-chat.png" alt="" class="modal__burger-lining__list-item_icon">
+                            <div class="modal__burger-lining__list-item_cat">До чату</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal__chat" id="link_2">
+                <div class="modal__helpex-inner">
+                    <div class="modal__helpex-header">
+                        <div class="modal__helpex-header__text">Задайте нам запитання</div>
+                        <button class="modal__chat-exitTab"></button>
+                    </div>
+                    <div class="modal__chat-main">
+                        <div class="modal__chat-main__wrapper">
+                            <p id="dateFolder" class="modal__chat-main__date"></p>
+                            <div class="modal__helpex-main__description">
+                                <div class="modal__helpex-main__description-wrapper">
+                                    <p> 
+                                        Вітаю! Я Ангеліна – ваш дбайливий помічник <span>&#x1f60e</span>
+                                    </p>
+                                    <p>
+                                        Відповім на будь-які запитання чи оперативно оформлю заявку на прорахунок вартості. Що забажаєте? :)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal__helpex-main-section">
+                            <form id="form_chat_question" class="modal__helpex-main__form js-form4" novalidate>
+                                <div class="modal__helpex-main__form-inner">
+                                    <div class="modal__helpex-main__form-item modal__helpex-main__form-item--question">
+                                        <textarea type="text" class="modal__helpex-main__form-input modal__helpex-main__form-input--question js-input4" placeholder="Введіть Ваше запитання" name="text"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="modal__helpex-main__send">Надіслати</button>
+                            </form>
+                        </div>
+                    </div>          
+                </div>
+            </div>
+        
+            <div class="modal modal__comments" id="link_1">
+                <div class="modal__comments-wrapper">
+                    <div class="modal__burger-lining__header">
+                        <div class="modal__burger-lining__header_text">Залишіть відгук</div>
+                        <button id="comments-exit" class="modal__chat-exitTab"></button>
+                    </div>
+                    <div class="modal__comments-main">
+                        <div class="containerr">
+                            <div class="feedback">
+                              <div class="rating">
+                                <input type="radio" name="rating" id="rating-5">
+                                <label for="rating-5"></label>
+                                <input type="radio" name="rating" id="rating-4">
+                                <label for="rating-4"></label>
+                                <input type="radio" name="rating" id="rating-3">
+                                <label for="rating-3"></label>
+                                <input type="radio" name="rating" id="rating-2">
+                                <label for="rating-2"></label>
+                                <input type="radio" name="rating" id="rating-1">
+                                <label for="rating-1"></label>
+                                <div class="emoji-wrapper">
+                                  <div class="emoji">
+                                    <svg class="rating-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <circle cx="256" cy="256" r="256" fill="#ffd93b"/>
+                                        <path d="M512 256c0 141.44-114.64 256-256 256-80.48 0-152.32-37.12-199.28-95.28 43.92 35.52 99.84 56.72 160.72 56.72 141.36 0 256-114.56 256-256 0-60.88-21.2-116.8-56.72-160.72C474.8 103.68 512 175.52 512 256z" fill="#f4c534"/>
+                                        <ellipse transform="scale(-1) rotate(31.21 715.433 -595.455)" cx="166.318" cy="199.829" rx="56.146" ry="56.13" fill="#fff"/>
+                                        <ellipse transform="rotate(-148.804 180.87 175.82)" cx="180.871" cy="175.822" rx="28.048" ry="28.08" fill="#3e4347"/>
+                                        <ellipse transform="rotate(-113.778 194.434 165.995)" cx="194.433" cy="165.993" rx="8.016" ry="5.296" fill="#5a5f63"/>
+                                        <ellipse transform="scale(-1) rotate(31.21 715.397 -1237.664)" cx="345.695" cy="199.819" rx="56.146" ry="56.13" fill="#fff"/>
+                                        <ellipse transform="rotate(-148.804 360.25 175.837)" cx="360.252" cy="175.84" rx="28.048" ry="28.08" fill="#3e4347"/>
+                                        <ellipse transform="scale(-1) rotate(66.227 254.508 -573.138)" cx="373.794" cy="165.987" rx="8.016" ry="5.296" fill="#5a5f63"/>
+                                        <path d="M370.56 344.4c0 7.696-6.224 13.92-13.92 13.92H155.36c-7.616 0-13.92-6.224-13.92-13.92s6.304-13.92 13.92-13.92h201.296c7.696.016 13.904 6.224 13.904 13.92z" fill="#3e4347"/>
+                                      </svg>
+                                   <img src="img/sad.png" alt="" class="rating-1">
+                                   <img src="img/not__very-sad.png" alt="" class="rating-2">
+                                   <img src="img/not__very-happy.png" alt="" class="rating-3">
+                                   <img src="img/happy.png" alt="" class="rating-4">
+                                   <img src="img/love.png" alt="" class="rating-5">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <form id="form_comments" class="modal__comments-main_section js-form3" novalidate>
+                              <div class="modal__comments-form">
+                                <div class="modal__comments-form__item">
+                                    <input type="email" class="modal__comments-form__input js-input3 js-input-email3" placeholder="Email">
+                                </div>
+                                <div class="modal__comments-form__item">
+                                    <input type="text" class="modal__comments-form__input js-input3" placeholder="Ім'я" name="text">
+                                </div>
+                                <div class="modal__comments-form__item modal__comments-form__item--question">
+                                    <textarea type ='text'  class="modal__comments-form__input js-input3" placeholder="Ваші враження від співпраці з нами?" name="text"></textarea>
+                                </div>
+                            </div>
+                            <div class="modal__comments-link">
+                                <button type="submit" class="modal__comments-link_btn">Залишити відгук</button>
+                            </div>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <main>
+            <div class="container_for_drivers">
+                
+                <div class="registration_wraper">
+                    <div class="registration_inner_text">
+                        <h1 class="registration_inner_text_big _anim-items _anim-no-hide">Стань частиною команди <span style="color: red;">S</span>herp</h1>
+                        <h4 class="registration_inner_text_small _anim-items _anim-no-hide">Приготуйся співпрацювати з нами!</h4>
+                        <picture><source srcset="img/register.webp" type="image/webp"><img class="registration_inner_text_img _anim-items _anim-no-hide" src="img/register.png"></picture>
+                    </div>
+                    <div class="registration_inner_form _anim-items _anim-no-hide">
+                        <h2 class="registration_inner_form_text">Зареєструйся зараз</h2>
+
+                        <div class="checkbox">
+                
+                            <ul class="checkbox_table">
+                                <li class="checkbox_table_items">
+                                    <input class="checkbox_table_items_input" type="radio" id="f-option" name="selector" checked>
+                                    <label class="checkbox_table_items_label" for="f-option">Я маю авто</label>
+                                    
+                                    <div class="checkbox_table_items_check"></div>
+                                </li>
+                            
+                                <li class="checkbox_table_items">
+                                    <input class="checkbox_table_items_input" type="radio" id="s-option" name="selector">
+                                    <label class="checkbox_table_items_label" for="s-option">Мені потрібне авто</label>
+                                    
+                                    <div class="checkbox_table_items_check"><div class="inside"></div></div>
+                                </li>                  
+                          </ul>
+                        </div>
+
+                        <form id="form_driver" class="registration_form js-form5" novalidate action="">
+                            <div class="registration_form_name_surname">
+                                <input class="registration_form_name js-input5" type="text" inputmode="text" placeholder="Ім'я">
+                                <input class="registration_form_surname js-input5" type="text" inputmode="text" placeholder="Прізвище">
+                            </div>
+                            <div class="registration_form_email">
+                                <input class="registration_email input_email js-input5 js-input-email5" type="email" inputmode="email" placeholder="Електронна адреса">
+                            </div>
+                            <div class="registration_form_password">
+                                <input class="registration_password password_in js-input5" type="password" placeholder="Пароль">
+                                <div class="password_btn"><picture><source srcset="img/hide_password.webp" type="image/webp"><img src="img/hide_password.png" alt="img"></picture></div>
+                            </div>
+                            <div class="registration_form_phone">
+                                <input class="registration_phone js-input5 js-input-phone5" type="tel" class="phone" inputmode="tel" placeholder="Номер телефону">
+                            </div>
+                            <div class="registration_form_city">
+                                <input class="registration_city js-input5" type="text" class="city" inputmode="text" placeholder="Місто">
+                            </div>
+
+                            <div class="registration_submit">
+                                <button id="BTN" name="BTN" type="submit" class="registration_button">Зареєструватися як водій</button> 
+                                <div class="inforeg">
+                                    <span>Уже маєте обліковий запис водія?</span>
+                                    <a href="driver_sign.html" class="log_in">Увійти</a>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>  
+                <div class="pluses_wraper">
+                    <h2 class="pluses_wraper_text_big _anim-items _anim-no-hide">Переваги стати водієм <span style="color: red;">S</span>herp</h2>
+                    <div class="pluses_wraper_inner">
+                        <div class="pluses_wraper_inner_1-3">
+                            <picture><source srcset="img/icon_plus_1.webp" type="image/webp"><img class="anim_img_1-3 _anim-items _anim-no-hide" src="img/icon_plus_1.png"></picture>
+                            <div class="text_plus_1-3">
+                                <div class="text_plus_1-3_item_big _anim-items _anim-no-hide">Заробляй більше грошей</div>
+                                <div class="text_plus_1-3_item_small _anim-items _anim-no-hide">
+                                    <div class="item_small">Справедлива комісія</div>
+                                    <div class="item_small">Гідний тариф</div>
+                                    <div class="item_small">Грошові бонуси та винагороди</div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="pluses_wraper_inner_2-4">
+                            <div class="text_plus_2-4">
+                                <div class="text_plus_2-4_item_big _anim-items _anim-no-hide">Простіші умови</div>
+                                <div class="text_plus_2-4_item_small _anim-items _anim-no-hide">
+                                    <div class="item_small">Вільний графік роботи</div>
+                                    <div class="item_small">Відсутність обов'язкових замовлень</div>
+                                    <div class="item_small">Відсутність вступних платежів</div>
+                                </div>
+                                
+                            </div>
+                            <picture><source srcset="img/icon_plus_2.webp" type="image/webp"><img class="anim_img_2-4 _anim-items _anim-no-hide" src="img/icon_plus_2.png"></picture>
+                            
+                        </div>
+                        <div class="pluses_wraper_inner_1-3">
+                            <picture><source srcset="img/icon_plus_3.webp" type="image/webp"><img class="anim_img_1-3 _anim-items _anim-no-hide" src="img/icon_plus_3.png"></picture>
+                            <div class="text_plus_1-3">
+                                <div class="text_plus_1-3_item_big _anim-items _anim-no-hide">Більше можливостей</div>
+                                <div class="text_plus_1-3_item_small _anim-items _anim-no-hide">
+                                    <div class="item_small">Відкрита інформація про замовлення</div>
+                                    <div class="item_small">Клієнти з рейтингом та відгуками</div>
+                                    <div class="item_small">Пряма комунікація з пасажиром</div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="pluses_wraper_inner_2-4">
+                            <div class="text_plus_2-4">
+                                <div class="text_plus_2-4_item_big _anim-items _anim-no-hide">Надійність та впевненість</div>
+                                <div class="text_plus_2-4_item_small _anim-items _anim-no-hide">
+                                    <div class="item_small">Безпечна співпраця</div>
+                                    <div class="item_small">Швидка підтримка</div>
+                                    <div class="item_small">Зв'язок 24/7</div>
+                                </div>
+                                
+                            </div>
+                            <picture><source srcset="img/icon_plus_4.webp" type="image/webp"><img class="anim_img_2-4 _anim-items _anim-no-hide" src="img/icon_plus_4.png"></picture>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js?_v=20220316031141"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js?_v=20220316031141"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js?_v=20220316031141"></script>
+        <footer>
+            <div class="footer__wrapper">
+                <div class="footer_wrapper-section">
+                    <div class="footer_media _anim-items _anim-no-hide animateScrollLeft">
+                        <h4 class="text_media">Слідкуй за нами тут!</h4>
+                        <ul class="footer_items">
+                            <li class="footer_inner"><a href="https://www.facebook.com" class="social">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="15px" height="15px">
+                                    <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                    </path>
+                                </svg>
+                            </i></a></li>
+                            <li class="footer_inner"><a href="https://www.instagram.com/sherp_taxi_official/" class="social">
+                                <svg width="15px" height="15px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                    <g>
+                                        <path d="M127.999746,23.06353 C162.177385,23.06353 166.225393,23.1936027 179.722476,23.8094161 C192.20235,24.3789926 198.979853,26.4642218 203.490736,28.2166477 C209.464938,30.5386501 213.729395,33.3128586 218.208268,37.7917319 C222.687141,42.2706052 225.46135,46.5350617 227.782844,52.5092638 C229.535778,57.0201472 231.621007,63.7976504 232.190584,76.277016 C232.806397,89.7746075 232.93647,93.8226147 232.93647,128.000254 C232.93647,162.177893 232.806397,166.225901 232.190584,179.722984 C231.621007,192.202858 229.535778,198.980361 227.782844,203.491244 C225.46135,209.465446 222.687141,213.729903 218.208268,218.208776 C213.729395,222.687649 209.464938,225.461858 203.490736,227.783352 C198.979853,229.536286 192.20235,231.621516 179.722476,232.191092 C166.227425,232.806905 162.179418,232.936978 127.999746,232.936978 C93.8200742,232.936978 89.772067,232.806905 76.277016,232.191092 C63.7971424,231.621516 57.0196391,229.536286 52.5092638,227.783352 C46.5345536,225.461858 42.2700971,222.687649 37.7912238,218.208776 C33.3123505,213.729903 30.538142,209.465446 28.2166477,203.491244 C26.4637138,198.980361 24.3784845,192.202858 23.808908,179.723492 C23.1930946,166.225901 23.0630219,162.177893 23.0630219,128.000254 C23.0630219,93.8226147 23.1930946,89.7746075 23.808908,76.2775241 C24.3784845,63.7976504 26.4637138,57.0201472 28.2166477,52.5092638 C30.538142,46.5350617 33.3123505,42.2706052 37.7912238,37.7917319 C42.2700971,33.3128586 46.5345536,30.5386501 52.5092638,28.2166477 C57.0196391,26.4642218 63.7971424,24.3789926 76.2765079,23.8094161 C89.7740994,23.1936027 93.8221066,23.06353 127.999746,23.06353 M127.999746,0 C93.2367791,0 88.8783247,0.147348072 75.2257637,0.770274749 C61.601148,1.39218523 52.2968794,3.55566141 44.1546281,6.72008828 C35.7374966,9.99121548 28.5992446,14.3679613 21.4833489,21.483857 C14.3674532,28.5997527 9.99070739,35.7380046 6.71958019,44.1551362 C3.55515331,52.2973875 1.39167714,61.6016561 0.769766653,75.2262718 C0.146839975,88.8783247 0,93.2372872 0,128.000254 C0,162.763221 0.146839975,167.122183 0.769766653,180.774236 C1.39167714,194.398852 3.55515331,203.703121 6.71958019,211.845372 C9.99070739,220.261995 14.3674532,227.400755 21.4833489,234.516651 C28.5992446,241.632547 35.7374966,246.009293 44.1546281,249.28042 C52.2968794,252.444847 61.601148,254.608323 75.2257637,255.230233 C88.8783247,255.85316 93.2367791,256 127.999746,256 C162.762713,256 167.121675,255.85316 180.773728,255.230233 C194.398344,254.608323 203.702613,252.444847 211.844864,249.28042 C220.261995,246.009293 227.400247,241.632547 234.516143,234.516651 C241.632039,227.400755 246.008785,220.262503 249.279912,211.845372 C252.444339,203.703121 254.607815,194.398852 255.229725,180.774236 C255.852652,167.122183 256,162.763221 256,128.000254 C256,93.2372872 255.852652,88.8783247 255.229725,75.2262718 C254.607815,61.6016561 252.444339,52.2973875 249.279912,44.1551362 C246.008785,35.7380046 241.632039,28.5997527 234.516143,21.483857 C227.400247,14.3679613 220.261995,9.99121548 211.844864,6.72008828 C203.702613,3.55566141 194.398344,1.39218523 180.773728,0.770274749 C167.121675,0.147348072 162.762713,0 127.999746,0 Z M127.999746,62.2703115 C91.698262,62.2703115 62.2698034,91.69877 62.2698034,128.000254 C62.2698034,164.301738 91.698262,193.730197 127.999746,193.730197 C164.30123,193.730197 193.729689,164.301738 193.729689,128.000254 C193.729689,91.69877 164.30123,62.2703115 127.999746,62.2703115 Z M127.999746,170.667175 C104.435741,170.667175 85.3328252,151.564259 85.3328252,128.000254 C85.3328252,104.436249 104.435741,85.3333333 127.999746,85.3333333 C151.563751,85.3333333 170.666667,104.436249 170.666667,128.000254 C170.666667,151.564259 151.563751,170.667175 127.999746,170.667175 Z M211.686338,59.6734287 C211.686338,68.1566129 204.809755,75.0337031 196.326571,75.0337031 C187.843387,75.0337031 180.966297,68.1566129 180.966297,59.6734287 C180.966297,51.1902445 187.843387,44.3136624 196.326571,44.3136624 C204.809755,44.3136624 211.686338,51.1902445 211.686338,59.6734287 Z" fill="currentColor"></path>
+                                    </g>
+                                </svg>
+                            </i></a></li>
+                            <li class="footer_inner"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="social">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="5.368 13.434 53.9 37.855"><path fill="#000" d="M41.272 31.81c-4.942-2.641-9.674-5.069-14.511-7.604v15.165c5.09-2.767 10.455-5.301 14.532-7.561h-.021z"/><path fill="#E8E0E0" d="M41.272 31.81c-4.942-2.641-14.511-7.604-14.511-7.604l12.758 8.575c.001 0-2.324 1.289 1.753-.971z"/><path fill="currentColor" d="M27.691 51.242c-10.265-.189-13.771-.359-15.926-.803-1.458-.295-2.725-.95-3.654-1.9-.718-.719-1.289-1.816-1.732-3.338-.38-1.268-.528-2.323-.739-4.9-.323-5.816-.4-10.571 0-15.884.33-2.934.49-6.417 2.682-8.449 1.035-.951 2.239-1.563 3.591-1.816 2.112-.401 11.11-.718 20.425-.718 9.294 0 18.312.317 20.426.718 1.689.317 3.273 1.267 4.203 2.492 2 3.146 2.035 7.058 2.238 10.118.084 1.458.084 9.737 0 11.195-.316 4.836-.57 6.547-1.288 8.321-.444 1.12-.823 1.711-1.479 2.366a7.085 7.085 0 0 1-3.76 1.922c-8.883.668-16.426.813-24.987.676zM41.294 31.81c-4.942-2.641-9.674-5.09-14.511-7.625v15.166c5.09-2.767 10.456-5.302 14.532-7.562l-.021.021z"/></svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_app _anim-items _anim-no-hide animateScrollShow">
+                        <h4 class="text_app">Завантажуй наш додаток!</h4>
+                        <ul class="footer_app_inner">
+                            <li class="inners"><a href="https://play.google.com/store?hl=uk&gl=US" class="social">
+                                <svg class="button_app" height="15px" viewBox="-110 -0.5 520 467.80000000000007" width="15px" xmlns="http://www.w3.org/2000/svg"><linearGradient id="a" gradientUnits="userSpaceOnUse" x2="261.746" y1="112.094" y2="112.094"><stop offset="0" stop-color="#63be6b"/><stop offset=".506" stop-color="#5bbc6a"/><stop offset="1" stop-color="#4ab96a"/></linearGradient><linearGradient id="b" gradientUnits="userSpaceOnUse" x1=".152" x2="179.896" y1="223.393" y2="223.393"><stop offset="0" stop-color="#3ec6f2"/><stop offset="1" stop-color="#45afe3"/></linearGradient><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="179.896" x2="407.976" y1="229.464" y2="229.464"><stop offset="0" stop-color="#faa51a"/><stop offset=".387" stop-color="#fab716"/><stop offset=".741" stop-color="#fac412"/><stop offset="1" stop-color="#fac80f"/></linearGradient><linearGradient id="d" gradientUnits="userSpaceOnUse" x1="1.744" x2="272.296" y1="345.521" y2="345.521"><stop offset="0" stop-color="#ec3b50"/><stop offset="1" stop-color="#e7515b"/></linearGradient><path d="M261.7 142.3L15 1.3C11.9-.5 8-.4 5 1.4c-3.1 1.8-5 5-5 8.6 0 0 .1 13 .2 34.4l179.7 179.7z" fill="url(#a)"/><path d="M.2 44.4C.5 121.6 1.4 309 1.8 402.3L180 224.1z" fill="url(#b)"/><path d="M402.9 223l-141.2-80.7-81.9 81.8 92.4 92.4L403 240.3c3.1-1.8 5-5.1 5-8.6 0-3.6-2-6.9-5.1-8.7z" fill="url(#c)"/><path d="M1.7 402.3c.2 33.3.3 54.6.3 54.6 0 3.6 1.9 6.9 5 8.6 3.1 1.8 6.9 1.8 10 0l255.3-148.9-92.4-92.4z" fill="url(#d)"/></svg>
+                            </a></li>
+                            <li class="inners"><a href="https://www.apple.com/ua/app-store/" class="social">
+                                <svg class="button_app" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg" viewBox="0 40 1024 1024"><path d="M0 0h1024v1024H0z" fill="#000"/><path d="M333 745.5l.095.03-34.547 59.837c-12.61 21.842-40.541 29.326-62.383 16.715-21.841-12.609-29.325-40.54-16.715-62.382l25.45-44.08 2.442-4.23c4.362-6.271 15.126-17.089 36.657-15.056 0 0 50.667 5.499 54.333 31.833.001 0 .501 8.666-5.332 17.333zm489.998-152.833H715.267c-7.336-.491-10.541-3.111-11.798-4.634l-.08-.139L588.066 388.15l-.149.1-6.917-9.917c-11.334-17.333-29.333 27-29.333 27-21.49 49.399 3.049 105.564 11.606 122.539l160.176 277.433c12.609 21.842 40.54 29.326 62.382 16.715 21.841-12.609 29.325-40.54 16.715-62.382l-40.054-69.374c-.775-1.68-2.126-6.245 6.088-6.263h54.418c25.221 0 45.667-20.446 45.667-45.667s-20.446-45.667-45.667-45.667zM613.75 654.75S619.5 684 597.25 684H575v.001H198.999c-25.221 0-45.667-20.446-45.667-45.667s20.446-45.667 45.667-45.667h102.386c16.53-.958 20.449-10.5 20.449-10.5l.09.046 133.648-231.486-.04-.008c2.437-4.472.408-8.697.055-9.366l-44.137-76.447c-12.611-21.842-5.127-49.772 16.715-62.382 21.842-12.611 49.771-5.127 62.382 16.715l20.47 35.456 20.434-35.393c12.61-21.842 40.54-29.326 62.382-16.715s29.326 40.541 16.715 62.382L424.573 587.086c-.813 1.961-1.062 5.039 4.988 5.581h111.165l.024 1.083s64.25 1 73 61z" fill="currentColor"/></svg>
+                            </a></li>
+                            
+                        </ul>
+                    </div>
+                </div>    
+                <div class="footer_copyright _anim-items _anim-no-hide animateScrollRight">
+                    <div class="footer_copyright_text">
+                        © 2022 Copyright Technologies Inc.
+                    </div>
+                </div>
+            </div>   
+        </footer>
+
+        <script src="js/driver.min.js?_v=20220316031141"></script>
+    </body>
+</html>
